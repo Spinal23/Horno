@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.figma-export-review/
+.vite/
+*.log

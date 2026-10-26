@@ -1,0 +1,41 @@
+¿Qué debe llevar el dashboard?
+
+1. Lectura de temperatura
+Obligatorio
+- Mostrar la temperatura medida por el sensor en °C.
+- Identificar claramente el valor actual.
+- La lectura debe corresponder al dato que recibe el sistema, no ser un valor ficticio.
+
+
+
+
+2. Ajuste de consigna
+Obligatorio
+- Permitir introducir o modificar la temperatura deseada.
+- Mostrar cuál es la consigna seleccionada.
+- Validar que el valor ingresado esté dentro de los límites definidos para el sistema.
+
+
+
+
+3. Control de actuadores AC/DC
+Obligatorio
+- Un control para encender y apagar la carga AC (calentamiento).
+- Un control para encender y apagar la carga DC (enfriamiento).
+- Mostrar el estado de cada actuador: encendido o apagado.
+
+
+
+
+4. Estado del sistema
+Recomendado para demostrar el funcionamiento
+- Indicar si el sistema está conectado.
+- Mostrar si los actuadores están activos.
+- Diferenciar el estado solicitado del estado realmente confirmado, si el hardware permite verificarlo.
+
+
+
+
+5. Gráfica de temperatura
+Complemento útil
+Una gráfica que muestre cómo cambia la temperatura con el tiempo ayuda a visualizar el comportamiento térmico. La rúbrica destaca la supervisión y el monitoreo del sistema.
